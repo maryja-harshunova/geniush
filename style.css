@@ -1,0 +1,85 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+
+
+*{
+    margin: 0;
+}
+section{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.pads{
+    width : 100%;
+    border-color: aqua;
+    display: flex;
+}
+
+.pads div{
+    
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.pads1{
+    background-color: #a52a2a;
+}
+
+.pads2{
+    background-color: #33b163;
+}
+.pads3{
+    background-color: #292bbd;
+}
+.pads4{
+    background-color: #eedf15;
+}
+.pads5{
+    background-color: #1571eb;
+}
+
+
+.animation-zone>div {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+@keyframes jump {
+    0%{
+        left:20%;
+        bottom : 0;
+    }
+
+    50%{
+        left: 50%;
+        bottom: 50%;
+
+    }
+
+    100%{
+        left: 80%;
+        bottom: 0;
+    }
+}
